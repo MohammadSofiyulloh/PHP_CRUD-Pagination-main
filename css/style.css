@@ -6,8 +6,12 @@
 html,
 body {
   height: 100%;
-  background-color: #ff00bf;
-  background-image: linear-gradient(315deg, #ff00bf 0%, #ff00bf 74%);
+  background-image:url('./5640557.jpg');
+  font-color: #0000;
+}
+
+h1, p {
+  font-color: #0000;
 }
 
 .container {
@@ -15,11 +19,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-color: #0000;
 }
 
 html {
   min-height: 100%;
   position: relative;
+  font-color: #0000;
 }
 
 .footer {
@@ -27,6 +33,7 @@ html {
   bottom: 0;
   right: 0;
   left: 0;
+  font-color: #0000;
 }
 
 @media (min-width: 320px) {

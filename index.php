@@ -21,8 +21,8 @@ $offset = !empty($_GET['page'])?(($_GET['page']-1)*$perPageLimit):0;
 
         <title>UAS PWEB 202410102003</title>
     </head>
-    <body>
-        <div class="container">
+    <body class= "p-3 mb-2 bg-light">
+        <div class="container mt-3 shadow-lg p-3 mb-5 bg-light rounded">
             <div class="row justify-content-center" id="contentData">
                 <div class="col-10 text-center">
                     <h1 class="display-1">UAS PWEB 202410102003</h1><br>
@@ -38,6 +38,7 @@ $offset = !empty($_GET['page'])?(($_GET['page']-1)*$perPageLimit):0;
                                 ?>
                                 <option value="<?php echo $r['Code']?>"><?php echo $r['Name']?></option>
                                 <?php } ?>
+                                </div>
                             </select>
                             <button type="submit" class="btn btn-primary mr-4 mt-3"><i class="bi bi-search"></i> Search</button>
                         </div>
